@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details Page - Lizdev-store </title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./../asset/product.css">
+    <!---GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-----CDN-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+   
+    <div class="container">
+   <div class="navbar">
+       <div class="logo">
+           <img src="./../asset/image/liz.png" alt="Lizdev-logo" width="125px">
+       </div>
+       <nav>
+           <div class="nav-items" id="nav-item-wrapper">
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">Products</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">New Arrivals</a></li>
+             
+           </ul>
+        </div>
+       </nav>
+       <i class="fas fa-cart-plus"></i>
+       
+       <i class="fas fa-user"></i>
+
+       <div class="hamburger-wrapper" id="menu-toggler"  onclick="toggleNavbar()"> 
+        <i class=" hamburger fas fa-bars"></i>
+    </div>
+   </div> 
+</div>
+
+<!-----------Single Product Details-->
+<div class="small-container single-prod">
+    <div class="row">
+  <div class="col-2">
+ <img src="./../asset/image/images/gallery-1.jpg" width="100%"  id="ProductImg">
+ <div class="small-img-row">
+     <div class="small-img-col">
+         <img src="./../asset/image/images/gallery-1.jpg" width="100%"  class="small-img">
+     </div>
+     <div class="small-img-col">
+        <img src="./../asset/image/images/gallery-2.jpg" width="100%"  class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="./../asset/image/images/gallery-3.jpg" width="100%"  class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="./../asset/image/images/gallery-4.jpg" width="100%"  class="small-img">
+    </div>
+     
+ </div>
+  </div>
+  <div class="col-2">
+<p>Home / T-shirt</p>
+<h1>Red Printed T-shirt by HRX</h1>
+<h4>$50.00</h4>
+<select name="" id="">
+    <option value="">Select Size</option>
+    <option value="">XXL</option>
+    <option value="">XL</option>
+    <option value="">Large</option>
+    <option value="">Medium</option>
+    <option value="">Small</option>
+</select>
+<input type="number" value="1">
+<a href="" class="btn">Add To Cart</a>
+<h3>Product Details <i class="fa fa-indent"></i></h3>
+<br>
+<p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt.
+     Team it with a pair of shorts for your morning workout or a dennims for an evening outings</p>
+  </div>
+    </div>
+</div>
+
+<!-------title--------->
+
+
+<div class="small-container">
+    <div class="row row-2">
+           <h2>Related Products</h2>
+           <p>View More</p>
+    </div>
+</div>
+
+<!---------Products----------->
+
+
+   <div class="small-container">
+       
+       <div class="row">
+        <div class="col-4">
+            <img src="./../asset/image/image-2/t-2.png" alt="T-shirt" height="360px" width="250">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>        
+           <i class="far fa-star"></i>
+            </div>
+            <p>$60.00</p>
+        </div>          
+         <div class="col-4">
+         <img src="./../asset/image/image-2/ma-2.jpg" alt="T-shirt" height="360px">
+         <h4>Nude Pointed Heels</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>        
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$60.00</p>
+     </div>          
+      <div class="col-4">
+            <img src="./../asset/image/image-2/ta-3.jpg" alt="T-shirt" height="360px">
+            <h4>Purple Nike Sneekers</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i> 
+           <i class="fas fa-star"></i>        
+        
+            </div>
+            <p>$100.00</p>
+        </div>        
+           <div class="col-4">
+         <img src="./../asset/image/image-2/ta-5.jpg" alt="T-shirt" height="360px">
+         <h4>Ladies' Knitted Wear</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$50.00</p>
+     </div>                  
+    </div>
+
+      
+       
+   <div class="page-btn">
+       <span>1</span>
+       <span>2</span>
+       <span>3</span>
+       <span>4</span>
+       <span>&#8594;</span>
+   </div>
+
+
+</div>  
+
+
+        <!-----------Footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="./../asset/image/image-2/playstore-logo.png" alt="Playstore-logo">
+                            <img src="./../asset/image/image-2/apple-store.png" alt="Apple-logo">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./../asset/image/liz.png" alt="" height="50px" width="50px">
+                     <p>Our Purpose Is To  Offer Superior Design, <br>
+                          Quality And Value To The Consumer. </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+
+                        
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <hr>
+                <p class="copy">Copyright 2021 - Lizdev</p>
+            </div>
+        </div>
+
+        
+    <script>
+
+// J.s For Product details //
+
+var ProductImg = document.getElementById("ProductImg");
+var SmallImg = document.getElementsByClassName("small-img");
+  
+
+   SmallImg[0].onclick = function()
+   {
+    ProductImg.src =  SmallImg[0].src;
+   }
+   SmallImg[1].onclick = function()
+   {
+    ProductImg.src =  SmallImg[1].src;
+   }
+   SmallImg[2].onclick = function()
+   {
+    ProductImg.src =  SmallImg[2].src; 
+   }
+   SmallImg[3].onclick = function()
+   {
+    ProductImg.src =  SmallImg[3].src;  
+   } 
+
+    </script>
+</body>
+</html>

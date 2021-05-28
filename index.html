@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizdev-store | Ecommerce Wbsite</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./asset/style.css">
+    <!---GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-----CDN-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+   <div class="navbar">
+       <div class="logo">
+          <a href="index.html"> <img src="./asset/image/liz.png" alt="Lizdev-logo" width="125px"></a>
+       </div>
+       <nav>
+           <div class="nav-items" id="nav-item-wrapper">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="./Public/product.html">Products</a></li>
+               <li><a href="./Public/account.html">Account</a></li>
+               <li><a href="./Public/cart.html">Cart</a></li>
+             
+           </ul>
+        </div>
+       </nav>
+     <a href="./Public/cart.html"><i class="fas fa-cart-plus"></i></a>
+       
+     <a href="./Public/account.html"><i class="fas fa-user"></i></a> 
+
+       <div class="hamburger-wrapper" id="menu-toggler"  onclick="toggleNavbar()"> 
+        <i class=" hamburger fas fa-bars"></i>
+    </div>
+   </div> 
+
+
+
+
+   <div class="row">
+
+    <div class="col-2">
+        <img src="./asset/image/landing.png" alt="Landing page">
+    </div>
+       <div class="col-2">
+           <h1>Original Is Never <br> Finished</h1>
+           <p>This is a place of hope, meaning and purpose. Visit and <br> become a part of something bigger
+               - a movement that is changing lives.
+           </p>
+           <a href="" class="btn">Explore Now  &#8594;</a>
+       </div>
+       
+   </div>
+</div>
+</div>
+
+<!---FEATURED CATEGORIES--->
+
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="./asset/image/image-2/ma-5.jpg" alt="">
+        </div>
+    
+        <div class="col-3">
+            <img src="./asset/image/image-2/ma-7.jpg" alt="">
+        </div>   
+        <div class="col-3">
+            <img src="./asset/image/image-2/ma-3.jpg" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+
+   <!---FEATURED Products--->
+   <div class="small-container">
+       <h2 class="title">Featured Products</h2>
+
+       <div class="row">
+        <div class="col-4">
+          <a href="./Public/product-details.html"> <img src="./asset/image/images/product-1.jpg" alt="T-shirt" height="360px" width="250"></a> 
+          <a href="./Public/product-details.html"> <h4>Red Printed T-shirt</h4></a> 
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>        
+           <i class="far fa-star"></i>
+            </div>
+            <p>$60.00</p>
+        </div>          
+         <div class="col-4">
+         <img src="./asset/image/images/category-1.jpg" alt="T-shirt" height="360px">
+         <h4>Crazy Jeans/Sneekers</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>        
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$60.00</p>
+     </div>          
+      <div class="col-4">
+            <img src="./asset/image/images/category-2.jpg" alt="T-shirt" height="360px">
+            <h4>Hot Sneekers</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i> 
+           <i class="fas fa-star"></i>        
+        
+            </div>
+            <p>$100.00</p>
+        </div>        
+           <div class="col-4">
+         <img src="./asset/image/images/category-3.jpg" alt="T-shirt" height="360px">
+         <h4>Unisex White Hood</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$50.00</p>
+     </div>                  
+    </div>  
+
+
+
+      
+       <h2 class="title">Latest Products</h2>
+
+       <div class="row">
+        <div class="col-4">
+            <img src="./asset/image/image-2/ma-11.jpg" alt="T-shirt" height="360px" width="250">
+            <h4>Sneekers</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>        
+           <i class="far fa-star"></i>
+            </div>
+            <p>$60.00</p>
+        </div>          
+         <div class="col-4">
+         <img src="./asset/image/image-2/ta.jpg" alt="T-shirt" height="360px">
+         <h4>Ladies' accessories</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>        
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$60.00</p>
+     </div>         
+       <div class="col-4">
+            <img src="./asset/image/image-2/ta-20.jpg" alt="T-shirt" height="360px">
+            <h4>T-shirts</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i> 
+           <i class="fas fa-star"></i>        
+        
+            </div>
+            <p>$100.00</p>
+        </div>         
+          <div class="col-4">
+         <img src="./asset/image/image-2/ta-0.jpg" alt="T-shirt" height="360px">
+         <h4>Hats</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$50.00</p>
+     </div>          
+    </div>  
+
+       <div class="row">
+        <div class="col-4">
+            <img src="./asset/image/image-2/lo-0.jpg" alt="T-shirt">
+            <h4>Ladies' accessories</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>        
+           <i class="far fa-star"></i>
+            </div>
+            <p>$60.00</p>
+        </div>          
+         <div class="col-4">
+         <img src="./asset/image/image-2/lo-12 (1).jpg" alt="T-shirt">
+         <h4>Nike Sneakers</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>        
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$60.00</p>
+     </div>          
+      <div class="col-4">
+            <img src="./asset/image/image-2/low.jpg" alt="T-shirt">
+            <h4>Wears</h4>
+            <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i> 
+           <i class="fas fa-star"></i>        
+        
+            </div>
+            <p>$100.00</p>
+        </div>           
+        <div class="col-4">
+         <img src="./asset/image/image-2/ta-14.jpg" alt="T-shirt">
+         <h4>Italian Shoe</h4>
+         <div class="rating">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-half-alt"></i>
+         </div>
+         <p>$50.00</p>
+     </div>  
+   </div>
+       </div>
+
+       <!--Offer-->
+
+       <div class="offer">
+           <div class="small-container">
+               <div class="row">
+                   <div class="col-2">
+                       <img src="./asset/image/image-2/smar.png" alt="">
+                   </div>
+                   <div class="col-2">
+                       <p>Exclusively Available on Lizdev Store</p>
+                       <h1>Apple Smart Band</h1>
+                       <small>Apple smart band incorporates fitness tracking, health-oriented capabilities,
+                            and wireless telecommunication. Integrates with iOS & Apple products.</small>
+                               
+                               <a href="" class="btn">Buy Now &#8594;</a>
+                        </div>
+               </div>
+           </div>
+       </div>
+
+
+       <!--Tesimonial-->
+
+      <div class="testimonial">
+          <div class="small-container">
+              <div class="row">
+                  <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                  <p>I can't even express how excited I was when your delivery arrived.
+                       Such well made, adorable clothing, the sizing is amazing, the pants fit so
+                        very well which is saying a lot when you are over a size US 24, even the undies fit so well!!! Amazing. I'm ordering again right now.
+                       Thank you! Please bring brick and mortar stores to the United States!!!!</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>        
+                   <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./asset/image/image-2/Simi.jpg" alt="Simi's Picture">
+                    <h3>Dokun Dolapo</h3>
+              </div>
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                  <p>I love these shoes!! I love the fit!!! I love the price!!!
+                       I am on my 3rd order from you!! I too was skeptical because you were international.. My order was here within a week and when I pulled out the clothes and tried them on.. I was skeptical no more. Keep those high low tops
+                       coming and thank you for making mje look great at work!!!!</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>        
+                   <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./asset/image/image-2/Bukola.jpg" alt="Bukola's pics">
+                    <h3>Abolaji Bukola</h3>
+              </div>
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                  <p>I just got my first order and I have one word WOW!!!!
+                       Love, Love, Love these clothes and the shoes!! I had my doubts before
+                        I ordered because most shoes I have been ordering are too small 
+                        and I'm usually disappointed, but not this time!! The shipping was
+                         also really fast it  only took about 9 days to get to me.
+                       Love it!! I'll be back to buy more. For Sure!</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>        
+                   <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./asset/image/image-2/Toba-1.jpg" alt="Toba's pics" >
+                    <h3>Akolade Oluwatoba</h3>
+              </div>
+          </div>
+        </div>
+
+    </div> 
+
+        <!---------------brands--------->
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./asset/image/image-2/paypal.png" alt="">
+                    
+                    </div>
+                    <div class="col-5">
+                        <img src="./asset/image/image-2/samsung.png" alt="">
+                    
+                    </div>
+                    <div class="col-5">
+                        
+                        <img src="./asset/image/image-2/coke-logo.png" alt="">
+                       
+                    </div>
+                    <div class="col-5">
+                      
+                        <img src="./asset/image/image-2/ebay.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="./asset/image/image-2/ali-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----------Footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="./asset/image/image-2/playstore-logo.png" alt="Playstore-logo">
+                            <img src="./asset/image/image-2/apple-store.png" alt="Apple-logo">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./asset/image/liz.png" alt="" height="50px" width="50px">
+                     <p>Our Purpose Is To  Offer Superior Design, <br>
+                          Quality And Value To The Consumer. </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+
+                        
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <hr>
+                <p class="copy">Copyright 2021 - Lizdev</p>
+            </div>
+        </div>
+
+        
+    <script src="./asset/javascript/harmburger.js"></script>
+</body>
+</html>
